@@ -1,0 +1,33 @@
+@media (min-aspect-ratio: 16/9) {
+    .vid {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .vid {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.logo{
+    position: relative;
+    top: -600px;
+}
+
+body{
+    background-color: #2d2d2d;
+    height: 200px;
+}
+
+h1{
+    font-family: Arial;
+    color: #eeeeee;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
